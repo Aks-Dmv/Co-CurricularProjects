@@ -1,0 +1,27 @@
+MN for OCR (actually CRF)
+How I did it
+
+goal: build the diagram
+given: Code for inference of the network
+given: the Map algorithm
+PHIc is the factor linking the vector node to classifying node
+PHIp is the factor linking two classifier nodes
+PA3Data has allWords which has many words which has many letters which have two attributes 1) 1-26 which character 2) sample image
+to access we do allWords{i} or allWords{i}(j)
+PA3Model has imageModel has basically params which is used to calculate character solely based on image (singleton factors)
+next it has pairWiseModel which is a 26x26 matrix that makes PHIp
+next is triplet list that contains triplets for making PHIp
+PA3SampleCases and PA3TestCases are self explanatory
+given: we got a logistic regression model that gives us vector K whose i element is that characters score
+to write ComputeSingletonFactors code
+done
+i did it by taking the computeImageFactor and returned a factor with var as the image index in the word and the cardinality as 26
+starting with inference
+that will be handled later
+computing equal pairwise factors now
+basically we said that any two letters are equally likely next to each other
+now we should calculate the actual things from the matrix in the pairwise matrix
+basically it is just transferring values using the index to assignment command
+similarly for triplet but here the triplets data base doesn’t have 26*26*26 values
+it just has 20,000 important ones
+so accordingly we transferred the 20,000 into their correct places

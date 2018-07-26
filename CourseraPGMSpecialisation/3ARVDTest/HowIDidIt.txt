@@ -1,0 +1,11 @@
+ARVD - Deciding to put a ICD or not
+How I did it
+
+we perform queries by making some things observed and then seeing their effect
+We are going to create a decision tree that includes our utility functions such that we come to the MAP decision
+    we should finally decide whether to put the device or not
+deterministic CPD's are those whose output is only dependent on the inputs
+    thus no probability needed we can directly assert the output
+Decision nodes are deterministic because we don’t want to give two identical patients with identical symptoms different prescriptions 
+U has its parents as its .var
+

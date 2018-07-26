@@ -1,0 +1,19 @@
+How I did it
+
+I am going to submit this to JL Raheja.
+Each node in the BN is a regressor. For simplicity, we have only done classification. But, now we will output a value based on a regression with some certain probability. 
+
+1) We are using naive Bayes. Not a good choice, because when we observe the class variable, i.e. say human, then we definitely have a certain dependence on the body parts. But, according to the naive bayes assumption, we won’t. So, why did we choose it? Because, when we fix our class variable, we want a certain set of parameters for each plate variable. 
+
+As said by the pdf, this will be a plate model where the class is the external variable and the plate contains the 6 parameters to define the plate. (We are using a normal distribution to define the body part). 
+
+## Doubt, why do we use the P(C=k). Isn’t this a very inefficient method. Because this would just become the posterior probability as seen from the data set.
+
+Normal distributions are Excellently chosen parameters. Think about it. One bad thing is that we have to adjust the position of the organism in the picture such that it falls inside the this x,y zone. 
+A better option would have been converting the calculating the x,y coordinates wrt a certain node’s coordinates. example. keep the head’s coordinates as 0,0 and now find everything wrt the head. This is just a small preprocessing that needs to be done once the coordinates have been given, such that it could generalise to any picture of a human.
+
+In the pdf, they said exactly what i predicted in the beginning, not independent of each other given classes. Thus, we add edges between body parts. This is where structure learning comes in handy. They took the torso as root variable.
+
+What I thought about reference node was correct. But the implementation was too simplistic. Here, we modelled the normal distributions mean as the sum of the theta for that node + theta of parent. So, if parent is at x1,y1 then the child will be at a position from this.
+Excellent idea.
+

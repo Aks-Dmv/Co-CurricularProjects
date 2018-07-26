@@ -1,0 +1,27 @@
+How I did it
+
+We just implemented the EM algorithm to complete the missing data pieces
+
+Basically, it can be thought of like a gradient ascent
+Both algorithms have a direction determining step, then they move their positions along that direction and finally they repeat for the new position
+
+Drawbacks- same as GA
+
+Can we use SVM?
+Yes, the idea is that we group based on distances based on hyper coordinates
+SVM would give better results
+But, basically the SVM algorithm works in the same way
+
+We want to classify the action into a class. So, we are given an action and we are told that we want the class. i.e.. argmax(P(c|a)) where we iterate among the c.
+P(c|a)=P(a|c)P(c)/P(a)
+and we know that P(c) and P(a) are constants
+the good thing because of this is that we can easily find argmax(P(a|c)) where we iterate over c
+imagine somebody telling you that this dude is clapping, what is the probability of him putting his hands close together?
+this is easy.
+Now, what if we had to find the class given the action, ex. his hands are close by, what is he doing?
+This is much tougher.
+
+Why are we using HMM?
+Because we have a sequence. The leg is going up, hits something and then goes back down. This is why we need HMM. We need some sort of state system.
+
+What do we do in Recognise action?
