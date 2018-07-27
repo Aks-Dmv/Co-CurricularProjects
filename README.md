@@ -34,7 +34,7 @@ Each of the following directories have all the required code required for runnin
 
 #### I took this specialization course when I was very young, and I owe everything to this course. It was a very challenging course and is the sole reason why I am comfortable with AI. This is Daphne Koller, the instructor for the course. 
 
-![Decision](img/daphnecoursera.png?raw=true "Title")
+![Decision](img/daphnecoursera.png?raw=true "Title")  
 [photo of Daphne Koller taken from the TechCrunch website]
 
 
