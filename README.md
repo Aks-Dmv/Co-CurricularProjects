@@ -34,7 +34,8 @@ Each of the following directories have all the required code required for runnin
 
 #### I took this specialization course when I was very young, and I owe everything to this course. It was a very challenging course and is the sole reason why I am comfortable with AI. This is Daphne Koller, the instructor for the course. 
 
-![Decision](img/daphnecoursera.png?raw=true "Title")[photo of Daphne Koller taken from the TechCrunch website]
+![Decision](img/daphnecoursera.png?raw=true "Title")
+[photo of Daphne Koller taken from the TechCrunch website]
 
 
 ### This course has 9 programming assignments which we had to write in MATLAB. Each directory has a well written pdf file which explains the background of the problem and what you have to do.
