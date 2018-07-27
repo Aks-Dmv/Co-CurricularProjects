@@ -76,8 +76,10 @@ Each of the following directories have all the required code required for runnin
 
 #### I took up this project because I liked its final capstone project. I thought the biggest take-away would be that final robot capture project; however, it turned out that the actual biggest take-aways were the concepts I learnt. Sebastian Thrun's (we have to give credit to the udacity platform, as well) pedagogy is really quite impressive. I have linked some snapshots below.
 
-![Decision](img/thrun.jpg?raw=true "Title") [Taken from Udacity's YouTube channel]
-![Decision](img/distri.jpg?raw=true "Title") [Taken from Udacity's YouTube channel]
+![Decision](img/thrun.jpg?raw=true "Title") 
+[Taken from Udacity's YouTube channel]
+![Decision](img/distri.jpg?raw=true "Title") 
+[Taken from Udacity's YouTube channel]
 
 
 
