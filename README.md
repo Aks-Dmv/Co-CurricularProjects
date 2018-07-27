@@ -38,7 +38,7 @@ Each of the following directories have all the required code required for runnin
 
 
 ### This course has 9 programming assignments which we had to write in MATLAB. Each directory has a well written pdf file which explains the background of the problem and what you have to do.
-### Disclaimer: I am not trying to help students cheat. These are just my insights. 
+### Disclaimer: I am not trying to help students cheat. This is just proof that I solved those assignments. 
 
 1. BN Knowledge Engineering
 2. BN Genetic Inheritance
