@@ -1,5 +1,5 @@
 # Co-CurricularProjects
-These are a few selected projects that were done during my undergraduate years. You can think of them like capstone projects. Some of these courses are online courses, while some are on-campus courses.  
+These are a few selected projects that were done during my undergraduate years. You can think of them like capstone projects. Some of these courses are online courses, while some are on-campus courses. I have given a brief intro to each of these projects below. If you want more details regarding any one, just click on the respective directories.
 
 ![MacDown logo](img/luca-bravo-217276-unsplash.jpg?raw=true "Title")[Photo by Luca Bravo on Unsplash]
 
