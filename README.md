@@ -37,7 +37,7 @@ Each of the following directories have all the required code required for runnin
 ![Decision](img/daphnecoursera.png?raw=true "Title")[photo of Daphne Koller taken from the TechCrunch website]
 
 
-### This course has 9 programming assignments which we had to write in MATLAB. Each directory has a well written pdf file which explains the background of the problem and what you have to do. I have even included a README.md file in each folder detailing how to go about solving these problems.
+### This course has 9 programming assignments which we had to write in MATLAB. Each directory has a well written pdf file which explains the background of the problem and what you have to do.
 ### Disclaimer: I am not trying to help students cheat. These are just my insights. 
 
 1. BN Knowledge Engineering
