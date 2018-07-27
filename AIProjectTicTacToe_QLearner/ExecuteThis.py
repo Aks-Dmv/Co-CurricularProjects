@@ -42,7 +42,7 @@ def checkLose(oldA,XO):
     for j in range(9):
         if(checkCorrectCoord(oldA,j)):
             a=deepcopy(oldA)
-            print(a)
+            #print(a)
             playAction(a,j,-XO)
             for i in range(3):
                 if(a[3*i]==a[3*i+1] and a[3*i+1]==a[3*i+2] and a[3*i]==-XO):
