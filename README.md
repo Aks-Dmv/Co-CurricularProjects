@@ -79,7 +79,7 @@ Each of the following directories have all the required code required for runnin
 
 ![Decision](img/thrun.jpg?raw=true "Title") 
 [Taken from Udacity's YouTube channel]
-![Decision](img/distri.jpg?raw=true "Title") 
+![Decision](img/Distri.jpg?raw=true "Title") 
 [Taken from Udacity's YouTube channel]
 
 
