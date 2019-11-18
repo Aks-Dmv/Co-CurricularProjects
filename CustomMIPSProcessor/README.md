@@ -1,5 +1,5 @@
 # CustomMIPSProcessor
-This was a research project @ BITS.  
+This was a research project @ BITS. I am looking into open-sourcing the code shortly.
 
 ## The Specifications
 
