@@ -1,5 +1,5 @@
 # CustomMIPSProcessor
-This was a project created as a Capstone Project for the Computer Architecture course @ BITS.  
+This was a research project @ BITS.  
 
 ## The Specifications
 
